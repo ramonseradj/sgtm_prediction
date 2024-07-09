@@ -1,4 +1,4 @@
-﻿___INFO___
+___INFO___
 
 {
   "type": "MACRO",
@@ -19,7 +19,7 @@ ___TEMPLATE_PARAMETERS___
   {
     "type": "TEXT",
     "name": "events",
-    "displayName": "Eventliste",
+    "displayName": "event list",
     "simpleValueType": true,
     "help": "Eventliste, bei der Anfrage an API ausgeführt werden soll."
   },
@@ -163,9 +163,6 @@ if (data.data) {
   }
 }
 
-// Iterate over the items in the datalayer to build up prediction data, and add
-// global values where they are missing.
-// globalValues.day = makeNumber(globalValues.day);
 let predictionData = [globalValues];
 
 // The payload for VertexAI.
